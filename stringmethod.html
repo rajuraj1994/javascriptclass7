@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <script>
+        const string_value="welcome to Dursikshya to attend the javascript class."
+        //to count the length of the string use length
+        document.write(`the length of a string is ${string_value.length} <br>`)
+        //to find the position of string in a string use indexOf
+        document.write(`the position of 'to' in string is ${string_value.indexOf('to')} <br>`)
+        //search
+        //to find the position of last occurance of a repeated string use lastIndexOf
+        document.write(`${string_value.lastIndexOf('to')} <br>`)
+        // to change string to uppercase use toUpperCase
+        document.write(`${string_value.toUpperCase()} <br>`)
+        //toLowerCase()
+             
+        //replace the specific string with another string
+        document.write(`${string_value.replace('javascript','css')} <br>`)
+         //replaceAll methods replace all the string that are similar
+
+         //replace using regular expression and insensitive(i)
+         document.write(`${string_value.replace(/dursikshya/ig,'Academy')} <br>`)
+
+         //substring -> certain parts of a string
+         //substring methods
+         //slice(start,end)
+         //substring(start,end)
+         //substr(start,length)
+
+         document.write(`${string_value.slice(0,21)}......... <br>`)
+         document.write(`${string_value.substring(5,25)}......... <br>`)
+         document.write(`${string_value.substr(5,25)}......... <br>`)
+        
+         //charAt()
+         //charCodeAt()
+
+
+         //concatenate -> for this we use +
+         const full_name="Shishir Basnet"
+         document.write('my name is '+full_name+'<br>')
+
+         const a='15'
+         const b='20'
+         const c=a+b
+         document.write(c)
+
+
+
+
+
+
+
+
+         
+
+    </script>
+    
+</body>
+</html>

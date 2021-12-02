@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    <p>array->collection of homogenous object ie a varible contain more than one value</p>
+
+    <script>
+        const fruits=['apple','banana','mango','papaya','cherry']
+        document.write(`${fruits} <br>`)
+        document.write(`${fruits[0]} <br>`)
+        //to find array length
+        document.write(`${fruits.length}`)
+        //to remove last array element use pop
+        fruits.pop()
+        document.write(`${fruits} <br>`)
+        //to add last array element use push
+        fruits.push('orange')
+        document.write(`${fruits} <br>`)
+        //shift-> remove first array element
+        //unshift -> add first array element
+
+        //use spice method to add more than one array element at any position
+
+        fruits.splice(2,0,'grapes','pineapple')
+        //here 2 is position where new elements are added from
+        //0 means no any array element is removed
+        document.write(`${fruits} <br>`)
+
+        //slice
+
+        //sort ->ascending order
+        fruits.sort()
+        document.write(`${fruits} <br>`)
+        //reverse 
+        fruits.reverse()
+        document.write(`${fruits} <br>`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>
